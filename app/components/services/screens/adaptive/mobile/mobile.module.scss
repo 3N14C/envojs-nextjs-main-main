@@ -1,0 +1,57 @@
+.mobile {
+    margin-top: 65px;
+
+    .mobile_title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 150%;
+    }
+
+    .mobile_icon_add {
+        float: right;
+    }
+
+    .mobile_tools {
+        text-align: center;
+        // margin-top: 120px;
+
+        .tools {
+
+            .mobile_tools_title {
+                margin-top: 20px;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: -0.75px;
+            }
+
+            .mobile_descr_container {
+                display: flex;
+                justify-content: center;
+                position: relative;
+                text-align: center;
+
+                .mobile_tools_descr {
+                    margin-top: 20px;
+                    width: 299px;
+                    color: rgba(255, 255, 255, 0.70);
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 28px;
+                }
+            }
+
+            .tools_icon_container {
+                display: flex;
+                justify-content: center;
+
+                .tools_icon {
+                    margin-top: 120px;
+                }
+            }
+
+            
+            
+        }
+    }
+}

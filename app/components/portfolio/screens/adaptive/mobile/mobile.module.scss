@@ -1,0 +1,36 @@
+.mobile {
+	margin-top: 190px;
+	display: flex;
+	// align-items: center;
+	align-items: end;
+
+	.mobile_title {
+		max-width: 327px;
+		font-size: 36px;
+		font-weight: 700;
+		line-height: 150%;
+	}
+
+	.mobile_img_container {
+		margin-right: 30px;
+
+		.mobile_image {
+			margin-right: 30px;
+		}
+	}
+}
+
+.mobile_projects {
+	margin-top: 70px;
+	text-align: center;
+
+	.mobile_projects_img {
+		padding: 25px;
+		border-radius: 14px;
+		background-color: #1e1e20;
+	}
+}
+
+.vector {
+	margin-top: 160px;
+}

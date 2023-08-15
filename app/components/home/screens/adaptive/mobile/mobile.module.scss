@@ -1,0 +1,48 @@
+.mobile {
+    margin-top: 70px;
+
+    .mobile_title {
+        position: relative;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 150%;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: -100px;
+            width: 252.366px;
+            height: 666.74px;
+            transform: rotate(-41.342deg);
+            flex-shrink: 0;
+            border-radius: 233.5px;
+            background: linear-gradient(180deg, rgba(84, 84, 212, 0.27) 0%, rgba(84, 84, 212, 0.11) 100%);
+            filter: blur(150px);
+        }
+    }
+
+    .mobile_text {
+        margin-top: 30px;
+        max-width: 327px;
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+
+    .mobile_btn {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        font-size: 16.089px;
+        font-weight: 700;
+        line-height: normal;
+        padding: 10px 20px;
+        background-color: #5454D4;
+        
+
+        span {
+            margin-left: 10px;
+        }
+    }
+}

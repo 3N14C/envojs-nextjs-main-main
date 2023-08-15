@@ -1,0 +1,25 @@
+.contact {
+    margin-top: 140px;
+    // background-color: rgba(30, 30, 32, 0.50);
+
+    .contact_form {
+        padding: 190px 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .contact_title {
+            max-width: 826px;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        .contact_btn {
+            padding: 15px 30px;
+            border-radius: 5px;
+            background-color: #5454D4;
+
+        }
+    }
+}

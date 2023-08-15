@@ -1,0 +1,11 @@
+@import './clearcss.scss';
+
+.container {
+    position: relative;
+    padding: 30px 80px 0 80px;
+    background-color: #19191B;
+
+    @media (max-width: 576px) {
+        padding: 45px 25px 0 25px;
+    }
+}

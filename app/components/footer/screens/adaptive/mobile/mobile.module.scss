@@ -1,0 +1,39 @@
+.mobile_footer {
+	margin-top: 140px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+
+	.mobile_footer__inner {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+
+		.mobile_footer_inner_items {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			gap: 40px;
+
+			.mobile_footer_link {
+				color: rgba(255, 255, 255, 0.70);
+				font-size: 18px;
+				font-weight: 700;
+				line-height: 28px;
+				text-transform: capitalize;
+				
+			}
+		}
+	}
+
+	.mobile_footer_text {
+			font-size: 18px;
+			font-weight: 400;
+			line-height: 28px;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+}

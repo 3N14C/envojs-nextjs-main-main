@@ -1,0 +1,27 @@
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .mobile_menu_open {
+        width: 24px;
+    }
+
+    .mobile_menu_container {
+        // border: 1px solid green;
+
+        .mobile_menu_close {
+            width: 24px;
+            // float: right;
+            // border: 1px solid red;
+        }
+    }
+}
+
+.mobile_menu {
+
+    .mobile_menu_items {
+        display: flex;
+        justify-content: center;
+    }
+}

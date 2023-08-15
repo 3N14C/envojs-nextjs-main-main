@@ -1,0 +1,32 @@
+.mobile {
+    margin-top: 200px;
+
+    .mobile_title {
+        position: relative;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 150%;
+
+        &::after {
+            content: '';
+            position: absolute;
+            left: -400px;
+            width: 215.168px;
+            height: 644.721px;
+            transform: rotate(44.85deg);
+            flex-shrink: 0;
+            border-radius: 233.5px;
+            background: linear-gradient(180deg, rgba(251, 168, 28, 0.26) 0%, rgba(224, 86, 136, 0.15) 100%);
+            filter: blur(150px);
+        }
+    }
+
+    .mobile_text {
+        max-width: 327px;
+        margin-top: 30px;
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+    }
+}

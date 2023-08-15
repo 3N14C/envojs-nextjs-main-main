@@ -1,0 +1,21 @@
+.header_inner {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    backdrop-filter:blur(10px);
+
+    .header_image {
+        margin-left: 5.5px;
+    }
+
+    .header_title {
+        position: relative;
+        color: rgba(255, 255, 255, 0.70);
+        margin-left: 5px;
+        font-size: 12px;
+        line-height: 140%;
+        cursor: default;
+    }
+
+    
+}
